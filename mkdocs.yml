@@ -1,0 +1,10 @@
+site_name: 模板文件
+site_description: A simple plugin to use with pytest
+site_author: pyzw
+
+theme: readthedocs
+
+repo_url: https://github.com/XueLiren/PyZW
+
+pages:
+- Home: index.md
