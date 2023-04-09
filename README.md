@@ -5,8 +5,22 @@ Python中文库（PyZW）是基于Python标准库和诸多第三方库再次封�
 
 
 ## 安装与使用
-
+* 安装我们，请在终端输入以下命令，并按回车执行：  
+     
+      
     pip install pyzw
+
+
+* 升级至最新版，请在终端输入以下命令，并按回车执行：  
+
+
+    pip install --upgrade pyzw
+
+
+* 卸载我们，请在终端输入以下命令，并按回车执行：  
+
+
+    pip uninstall pyzw
 
 
 ## 封装前后比较
@@ -28,6 +42,10 @@ If you encounter any problems, please `file an issue`_ along with a detailed des
 `GitHub`: https://github.com/XueLiren
 
 `PyPI`: https://pypi.org/project
+
+
+## 初学者入门建议
+    pip install pyzw
 
 
 ## 常见问题
