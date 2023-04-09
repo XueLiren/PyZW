@@ -1,5 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+# 打包命令：python setup.py bdist_wheel
+# 上传命令：twine upload dist/*
+# pypi账户：April7818
 
 import os
 import codecs
