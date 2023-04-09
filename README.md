@@ -25,7 +25,7 @@ If you encounter any problems, please `file an issue`_ along with a detailed des
 
 `@hackebrot`: https://github.com/hackebrot
 
-`GitHub`: https://github.com/XueLiren/
+`GitHub`: https://github.com/XueLiren
 
 `PyPI`: https://pypi.org/project
 
