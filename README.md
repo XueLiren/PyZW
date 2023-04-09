@@ -4,38 +4,37 @@
 Python中文库（PyZW）是基于Python标准库和诸多第三方库再次封装的中文模块，其函数命令超过1000个，涵盖了人工智能、键鼠操作、找图找色、网页自动化、手机自动化、OCR、YOLO、OpenCV、Word文档、Excel表格、PPT演示等多个领域。封装目的仅仅是为了将英文内容翻译成中文，从而使得生活、工作语言是中文的人群也能很好地学习、使用Python，享受编程带来的便利与乐趣！
 
 
-***
+## 安装
 
-## Features
+    pip install pyzw
 
+
+## 使用
 * TODO
 
 
-***
-## Requirements
-* TODO
-
-***
-## Installation
+## 函数分类
 
 You can install "PyZW" via `pip`_ from `PyPI`_::
 
-    pip install pyzw
-***
-## Usage
+
+## 鸣谢
 
 * TODO
-***
-## Contributing
+
+
+## 问题反馈
 
 Contributions are very welcome. Tests can be run with `tox`_, please ensure
 the coverage at least stays the same before you submit a pull request.
-***
+
+
 ## License
 
 Distributed under the terms of the `Apache Software License 2.0`_ license, "pytest-pyzw" is free and open source software
-***
-## Issues
+
+
+## 问题反馈
 
 If you encounter any problems, please `file an issue`_ along with a detailed description.
 
@@ -45,7 +44,7 @@ If you encounter any problems, please `file an issue`_ along with a detailed des
 
 `PyPI`: https://pypi.org/project
 
-***
+
 ## 常见问题
 ### 学编程，到底要不要学英语？
 常说的“学编程，先学英语”，不是指需要很好的英语水平才能写代码，而是由于人工智能、深度学习、神经网络、目标检测等最新的前沿技术都是国外团队开发出来的，我们不得不先学他们使用的语言——英语，才能更好地学习他们发表的文档资料，与他们交流问题以及应用这些技术。  
