@@ -10,7 +10,7 @@ Python中文库（PyZW）是基于Python标准库和诸多第三方库再次封�
 
 
 ## 使用
-* TOD
+* TODO
 
 
 ## 函数分类
