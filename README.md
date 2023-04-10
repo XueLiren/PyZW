@@ -35,7 +35,7 @@ pip uninstall pyzw
 
 ## 🌈使用模块🌈
 * **导入模块**  
-推荐🎉推荐🎉推荐🎉使用`from...import *`写法，例如：
+推荐🎉推荐🎉推荐🎉使用`from...import *`写法，例如：  
 ```python
 from pyzw.内置命令 import *  # 导入Python标准库的内置命令
 from pyzw.鼠标命令 import *  # 导入Python中文库(PyZW)封装的鼠标操作相关命令
@@ -46,16 +46,6 @@ from pyzw.鼠标命令 import *  # 导入Python中文库(PyZW)封装的鼠标操
 直接输入命令即可，例如：  
 pass
 
-## 🌈文档资料🌈
-pass
-
-## 🌈道友招募🌈
-pass
-
-## 🌈问题反馈🌈
-大家可以在"QQ频道-Python中文库"反馈BUG、求助问题、分享经验、闲聊杂谈，请使用QQ扫描下方二维码进入  
-![PyZW中文库](https://raw.githubusercontent.com/XueLiren/PyZW/master/img/qq_pindao.jpg "请使用QQ扫码进入PyZW中文库社区")
-
 ## 🌈命令分类🌈
 * **已封装的**  
 `内置函数` `字符串` `字节串` `剪切板` `列表` `编码` `运算` `文件` `目录`  
@@ -65,6 +55,16 @@ pass
 
 * **封装中的**  
 `Tk界面` 
+
+## 🌈文档资料🌈
+pass
+
+## 🌈道友招募🌈
+pass
+
+## 🌈问题反馈🌈
+大家可以在"QQ频道-Python中文库"反馈BUG、求助问题、分享经验、闲聊杂谈，请使用QQ扫描下方二维码进入  
+![PyZW中文库](https://raw.githubusercontent.com/XueLiren/PyZW/master/img/qq_pindao.jpg "请使用QQ扫码进入PyZW中文库社区")  
  
 ## 🌈函数封装前后比较🌈
 * pass 
