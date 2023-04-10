@@ -1,23 +1,6 @@
-# 欢迎使用 Python 中文库 —— PyZW
-<!--
-<p align="center">
-    <a target="_blank" href='https://github.com/CoderWanFeng/python-office'>
-        <img src="https://img.shields.io/github/stars/CoderWanFeng/python-office.svg?style=social" alt="github star"/>
-    </a>
-	<a target="_blank" href='https://gitee.com/CoderWanFeng/python-office/'>
-		<img src='https://gitee.com/CoderWanFeng/python-office/badge/star.svg?theme=dark' alt='gitee star'/>
-	</a>
-  	<a href="https://mp.weixin.qq.com/s/yaSmFKO3RrBpyanW3nvRAQ">
-	    <img src="https://img.shields.io/badge/QQ-163434413-orange" alt=""/>
-    </a>
-    <a href="https://mp.weixin.qq.com/s/wx-JkgOUoJhb-7ZESxl93w">
-	    <img src="https://img.shields.io/badge/%E5%BE%AE%E4%BF%A1-%E4%BA%A4%E6%B5%81%E7%BE%A4-brightgreen" alt=""/>
-    </a>
-</p>
--->
+# 欢迎使用 Python 中文库(PyZW)
 * Python中文库（PyZW）是基于Python标准库和诸多第三方库再次封装的中文模块，其函数命令超过1000个，涵盖了人工智能、前后台键鼠操作、找图找色、网页自动化、手机自动化、OCR、YOLO、OpenCV、Word文档、Excel表格、PPT演示等多个领域。
 * 我们封装目的仅仅是为了将英文内容翻译成中文，从而使得生活、工作语言是中文的人群也能很好地学习、使用Python，享受编程带来的便利与乐趣！
-
 
 ## 🌈安装模块
 * **安装我们**，请在终端输入以下命令，并按回车执行
