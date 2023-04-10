@@ -61,7 +61,7 @@ pass
 * pass
 
 ## 🌈问题反馈🌈
-![RUNOOB 图标](https://raw.githubusercontent.com/XueLiren/PyZW/master/img/qq_pindao.jpg "RUNOOB")
+![PyZW中文库](https://raw.githubusercontent.com/XueLiren/PyZW/master/img/qq_pindao.jpg "请使用QQ扫码进入PyZW中文库社区")
 
 ## 🌈初学者入门建议🌈
 * pass
