@@ -4,24 +4,30 @@
 Python中文库（PyZW）是基于Python标准库和诸多第三方库再次封装的中文模块，其函数命令超过1000个，涵盖了人工智能、键鼠操作、找图找色、网页自动化、手机自动化、OCR、YOLO、OpenCV、Word文档、Excel表格、PPT演示等多个领域。封装目的仅仅是为了将英文内容翻译成中文，从而使得生活、工作语言是中文的人群也能很好地学习、使用Python，享受编程带来的便利与乐趣！
 
 
-## 安装与使用
-* 安装我们，请在终端输入以下命令，并按回车执行
+## 安装模块
+* **安装我们**，请在终端输入以下命令，并按回车执行
 ```
 pip install pyzw
 ```
-升级至最新版，请在终端输入以下命令，并按回车执行
+* **升级至最新版**，请在终端输入以下命令，并按回车执行
+```
+pip install --upgrade pyzw
+```
+* **卸载我们**，请在终端输入以下命令，并按回车执行
+```
+pip uninstall pyzw
+```
 
-    pip install --upgrade pyzw
+## 使用模块
+* **导入模块**，推荐使用`from...import...`，例如：
+```python
+from pyzw.内置命令 import *  # 导入Python标准库的内置命令
+from pyzw.鼠标命令 import *  # 导入Python中文库封装的鼠标操作相关命令
+```
+* **使用命令**，直接输入命令即可，例如：  
+pass
 
-卸载我们，请在终端输入以下命令，并按回车执行
-
-    pip uninstall pyzw
-
-**import导入方式**  
-* 推荐使用`from...import...`形式导入模块
-
-
-## 函数命令分类
+## 命令分类
 
 You can install "PyZW" via `pip`_ from `PyPI`_::
 
