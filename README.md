@@ -35,7 +35,7 @@ pip uninstall pyzw
 
 ## 🌈使用模块🌈
 * **导入模块**  
-推荐！推荐！推荐使用`from...import *`写法，例如：
+🎉推荐🎉推荐🎉推荐使用`from...import *`写法，例如：
 ```python
 from pyzw.内置命令 import *  # 导入Python标准库的内置命令
 from pyzw.鼠标命令 import *  # 导入Python中文库(PyZW)封装的鼠标操作相关命令
