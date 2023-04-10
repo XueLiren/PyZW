@@ -60,8 +60,8 @@ pass
 ## 🌈函数封装前后比较🌈
 * pass
 
-## 🌈交流社区🌈
-* **Python中文社区** 大家可以在这里求助问题、分享经验、闲聊杂谈，请使用QQ扫描下方二维码进入  
+## 🌈问题反馈🌈
+* **Python中文社区** 大家可以在这里反馈BUG、求助问题、分享经验、闲聊杂谈，请使用QQ扫描下方二维码进入  
 * **Python中文知识库**  
 ![PyZW中文库](https://raw.githubusercontent.com/XueLiren/PyZW/master/img/qq_pindao.jpg "请使用QQ扫码进入PyZW中文库社区")
 
