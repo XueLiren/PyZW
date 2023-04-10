@@ -29,9 +29,7 @@ from pyzw.鼠标命令 import *  # 导入Python中文库(PyZW)封装的鼠标操
 pass
 
 ## 命令分类
-
 You can install "PyZW" via `pip`_ from `PyPI`_::
-
 
 ## 函数封装前后比较
 
