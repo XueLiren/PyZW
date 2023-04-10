@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# 打包命令：python setup.py bdist_wheel
-# 上传命令：twine upload dist/*
-# pypi账户：April7818
+# python setup.py bdist_wheel
+# twine upload dist/*
+# April7818
 
 import os
 import codecs
@@ -17,7 +17,7 @@ def read(filename):
 
 setup(
     name='pyzw',
-    version='0.0.12',
+    version='0.0.13',
     author='XueLiren',
     author_email='liren1029@gmail.com',
     # maintainer='XueLiren',
@@ -25,8 +25,8 @@ setup(
     license='Apache Software License 2.0',
     # keywords="中文编程 ",
     url='https://github.com/XueLiren/PyZW',
-    description='Python中文库（PyZW）是基于Python标准库和诸多第三方库再次封装的中文模块，其函数命令超过1000个，涵盖了人工智能、键鼠操作、找图找色、'
-                '网页自动化、手机自动化、OCR、YOLO、OpenCV、Word文档、Excel表格、PPT演示等多个领域。',
+    description='Python中文库（PyZW）是基于Python标准库和诸多第三方库再次封装的中文模块，其函数命令超过1000个，涵盖了人工智能、前后台键鼠操作、'
+                '找图找色、网页自动化、手机自动化、OCR、YOLO、OpenCV、Word文档、Excel表格、PPT演示等多个领域。',
     long_description=read('README.md'),
     long_description_content_type="text/markdown",
     packages=['pyzw'],

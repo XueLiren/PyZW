@@ -1,6 +1,7 @@
 README.md
 setup.py
 pyzw/Dm大漠命令.py
+pyzw/EXE打包命令.py
 pyzw/Excel表格命令.py
 pyzw/HTTP请求命令.py
 pyzw/OCR命令.py
@@ -15,7 +16,6 @@ pyzw/剪切板命令.py
 pyzw/图片命令.py
 pyzw/字符串命令.py
 pyzw/字节串命令.py
-pyzw/打包命令.py
 pyzw/数据库命令.py
 pyzw/文件命令.py
 pyzw/时间命令.py
