@@ -22,7 +22,7 @@ pip uninstall pyzw
 * **导入模块**，推荐使用`from...import...`，例如：
 ```python
 from pyzw.内置命令 import *  # 导入Python标准库的内置命令
-from pyzw.鼠标命令 import *  # 导入Python中文库封装的鼠标操作相关命令
+from pyzw.鼠标命令 import *  # 导入Python中文库(PyZW)封装的鼠标操作相关命令
 ```
 * **使用命令**，直接输入命令即可，例如：  
 pass
