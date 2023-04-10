@@ -1,7 +1,8 @@
 # 欢迎使用 Python 中文库（PyZW）
 
 ![PyPI version](https://img.shields.io/pypi/v/pytest-pyzw.svg) ![Python versions](https://img.shields.io/pypi/pyversions/pytest-pyzw.svg) ![See Build Status on AppVeyor](https://ci.appveyor.com/api/projects/status/github/XueLiren/pytest-pyzw?branch=master)  
-Python中文库（PyZW）是基于Python标准库和诸多第三方库再次封装的中文模块，其函数命令超过1000个，涵盖了人工智能、键鼠操作、找图找色、网页自动化、手机自动化、OCR、YOLO、OpenCV、Word文档、Excel表格、PPT演示等多个领域。封装目的仅仅是为了将英文内容翻译成中文，从而使得生活、工作语言是中文的人群也能很好地学习、使用Python，享受编程带来的便利与乐趣！
+* Python中文库（PyZW）是基于Python标准库和诸多第三方库再次封装的中文模块，其函数命令超过1000个，涵盖了人工智能、键鼠操作、找图找色、网页自动化、手机自动化、OCR、YOLO、OpenCV、Word文档、Excel表格、PPT演示等多个领域。
+* 我们封装目的仅仅是为了将英文内容翻译成中文，从而使得生活、工作语言是中文的人群也能很好地学习、使用Python，享受编程带来的便利与乐趣！
 
 
 ## 🌈安装模块🌈
