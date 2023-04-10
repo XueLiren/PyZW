@@ -43,7 +43,7 @@ from pyzw.鼠标命令 import *  # 导入Python中文库(PyZW)封装的鼠标操
 > 💡请注意， `import`导入模块的写法不止上述一种，其他写法也一样能使用Python中文库(PyZW)，但经我们反复测试，一致认为上述`from...import *`导入模块的写法是最利于使用Python中文库(PyZW)来写代码的
 
 * **使用演示**   
-pass
+![PyZW中文库](https://github.com/XueLiren/PyZW/blob/master/img/shiyongyanshi.gif?raw=true "")  
 
 ## 🌈命令分类
 * **已封装的**  
