@@ -1,6 +1,6 @@
 # 欢迎使用 Python 中文库 —— PyZW
 
-<p align="center" name="gitee">
+<p style="text-align:center;">
     <a target="_blank" href='https://github.com/CoderWanFeng/python-office'>
         <img src="https://img.shields.io/github/stars/CoderWanFeng/python-office.svg?style=social" alt="github star"/>
     </a>
@@ -8,10 +8,10 @@
 		<img src='https://gitee.com/CoderWanFeng/python-office/badge/star.svg?theme=dark' alt='gitee star'/>
 	</a>
   	<a href="https://mp.weixin.qq.com/s/yaSmFKO3RrBpyanW3nvRAQ">
-	    <img src="https://img.shields.io/badge/QQ-163434413-orange"/>
+	    <img src="https://img.shields.io/badge/QQ-163434413-orange" alt=""/>
     </a>
     <a href="https://mp.weixin.qq.com/s/wx-JkgOUoJhb-7ZESxl93w">
-	    <img src="https://img.shields.io/badge/%E5%BE%AE%E4%BF%A1-%E4%BA%A4%E6%B5%81%E7%BE%A4-brightgreen"/>
+	    <img src="https://img.shields.io/badge/%E5%BE%AE%E4%BF%A1-%E4%BA%A4%E6%B5%81%E7%BE%A4-brightgreen" alt=""/>
     </a>
 </p>
 
