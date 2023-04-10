@@ -47,6 +47,10 @@ pass
 * **查看文档**  
 pass
 
+## 🌈问题反馈🌈
+大家可以在"QQ频道-Python中文库"反馈BUG、求助问题、分享经验、闲聊杂谈，请使用QQ扫描下方二维码进入  
+![PyZW中文库](https://raw.githubusercontent.com/XueLiren/PyZW/master/img/qq_pindao.jpg "请使用QQ扫码进入PyZW中文库社区")
+
 ## 🌈命令分类🌈
 * **已封装的**  
 `内置函数` `字符串` `字节串` `剪切板` `列表` `编码` `运算` `文件` `目录`  
@@ -59,10 +63,6 @@ pass
  
 ## 🌈函数封装前后比较🌈
 * pass 
-
-## 🌈问题反馈🌈
-大家可以在"QQ频道-Python中文库"反馈BUG、求助问题、分享经验、闲聊杂谈，请使用QQ扫描下方二维码进入  
-![PyZW中文库](https://raw.githubusercontent.com/XueLiren/PyZW/master/img/qq_pindao.jpg "请使用QQ扫码进入PyZW中文库社区")
 
 ## 🌈初学者入门建议🌈
 * pass
