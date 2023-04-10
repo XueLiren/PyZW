@@ -29,26 +29,21 @@ from pyzw.鼠标命令 import *  # 导入Python中文库(PyZW)封装的鼠标操
 pass
 
 ## 命令分类
-You can install "PyZW" via `pip`_ from `PyPI`_::
+* 已翻译的  
+`内置命令`
+* 待翻译的
 
 ## 函数封装前后比较
-
 * pass
 
-
 ## 问题反馈
-
-If you encounter any problems, please `file an issue`_ along with a detailed description.
-
-`@hackebrot`: https://github.com/hackebrot
-
-`GitHub`: https://github.com/XueLiren
-
+If you encounter any problems, please `file an issue`_ along with a detailed description.  
+`@hackebrot`: https://github.com/hackebrot  
+`GitHub`: https://github.com/XueLiren  
 `PyPI`: https://pypi.org/project
 
-
 ## 初学者入门建议
-    pip install pyzw
+* pass
 
 
 ## 常见问题
