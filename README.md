@@ -5,10 +5,10 @@ Python中文库（PyZW）是基于Python标准库和诸多第三方库再次封�
 
 
 ## 安装与使用
-安装我们，请在终端输入以下命令，并按回车执行
-
-    pip install pyzw
-
+* 安装我们，请在终端输入以下命令，并按回车执行
+```
+pip install pyzw
+```
 升级至最新版，请在终端输入以下命令，并按回车执行
 
     pip install --upgrade pyzw
@@ -17,15 +17,18 @@ Python中文库（PyZW）是基于Python标准库和诸多第三方库再次封�
 
     pip uninstall pyzw
 
-
-## 封装前后比较
-
-* pass
+**import导入方式**  
+* 推荐使用`from...import...`形式导入模块
 
 
 ## 函数命令分类
 
 You can install "PyZW" via `pip`_ from `PyPI`_::
+
+
+## 函数封装前后比较
+
+* pass
 
 
 ## 问题反馈
