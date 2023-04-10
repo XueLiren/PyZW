@@ -1,6 +1,7 @@
-# 欢迎使用 Python 中文库 —— PyZW
 
-<p style="text-align:center;">
+# 欢迎使用 Python 中文库 —— PyZW
+<p align="center">欢迎使用 Python 中文库 —— PyZW</p>
+<p align="center">
     <a target="_blank" href='https://github.com/CoderWanFeng/python-office'>
         <img src="https://img.shields.io/github/stars/CoderWanFeng/python-office.svg?style=social" alt="github star"/>
     </a>
