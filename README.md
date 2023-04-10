@@ -42,7 +42,7 @@ from pyzw.鼠标命令 import *  # 导入Python中文库(PyZW)封装的鼠标操
 pass
 
 ## 🌈问题反馈
-大家可以在"QQ频道-Python中文库"反馈BUG、求助问题、分享经验、闲聊杂谈，请使用QQ扫描下方二维码进入  
+大家可以在"**QQ频道-Python中文库**"反馈BUG、求助问题、分享经验、闲聊杂谈，请使用QQ扫描下方二维码进入  
 ![PyZW中文库](https://raw.githubusercontent.com/XueLiren/PyZW/master/img/qq_pindao.jpg "请使用QQ扫码进入PyZW中文库社区")  
  
 ## 🌈函数封装前后比较
