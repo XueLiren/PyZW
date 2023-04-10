@@ -61,10 +61,7 @@ pass
 * pass
 
 ## 🌈问题反馈🌈
-If you encounter any problems, please `file an issue`_ along with a detailed description.  
-`@hackebrot`: https://github.com/hackebrot  
-`GitHub`: https://github.com/XueLiren  
-`PyPI`: https://pypi.org/project
+![RUNOOB 图标](https://raw.githubusercontent.com/XueLiren/PyZW/master/img/qq_pindao.jpg "RUNOOB")
 
 ## 🌈初学者入门建议🌈
 * pass
