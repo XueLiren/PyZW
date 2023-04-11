@@ -1,7 +1,7 @@
 Metadata-Version: 2.1
 Name: pyzw
-Version: 0.0.13
-Summary: Python中文库（PyZW）是基于Python标准库和诸多第三方库再次封装的中文模块，其函数命令超过1000个，涵盖了人工智能、键鼠操作、找图找色、网页自动化、手机自动化、OCR、YOLO、OpenCV、Word文档、Excel表格、PPT演示等多个领域。
+Version: 0.0.14
+Summary: Python中文库（PyZW）是基于Python标准库和诸多第三方库再次封装的中文模块，其函数命令超过1000个，涵盖了人工智能、前后台键鼠操作、找图找色、网页自动化、手机自动化、OCR、YOLO、OpenCV、Word文档、Excel表格、PPT演示等多个领域。
 Home-page: https://github.com/XueLiren/PyZW
 Author: XueLiren
 Author-email: liren1029@gmail.com
@@ -24,28 +24,12 @@ Classifier: License :: OSI Approved :: Apache Software License
 Requires-Python: >=3.7
 Description-Content-Type: text/markdown
 
-# 欢迎使用 Python 中文库 —— PyZW
-<!--
-<p align="center">
-    <a target="_blank" href='https://github.com/CoderWanFeng/python-office'>
-        <img src="https://img.shields.io/github/stars/CoderWanFeng/python-office.svg?style=social" alt="github star"/>
-    </a>
-	<a target="_blank" href='https://gitee.com/CoderWanFeng/python-office/'>
-		<img src='https://gitee.com/CoderWanFeng/python-office/badge/star.svg?theme=dark' alt='gitee star'/>
-	</a>
-  	<a href="https://mp.weixin.qq.com/s/yaSmFKO3RrBpyanW3nvRAQ">
-	    <img src="https://img.shields.io/badge/QQ-163434413-orange" alt=""/>
-    </a>
-    <a href="https://mp.weixin.qq.com/s/wx-JkgOUoJhb-7ZESxl93w">
-	    <img src="https://img.shields.io/badge/%E5%BE%AE%E4%BF%A1-%E4%BA%A4%E6%B5%81%E7%BE%A4-brightgreen" alt=""/>
-    </a>
-</p>
--->
+# 欢迎使用 Python 中文库（PyZW）
 * Python中文库（PyZW）是基于Python标准库和诸多第三方库再次封装的中文模块，其函数命令超过1000个，涵盖了人工智能、前后台键鼠操作、找图找色、网页自动化、手机自动化、OCR、YOLO、OpenCV、Word文档、Excel表格、PPT演示等多个领域。
-* 我们封装目的仅仅是为了将英文内容翻译成中文，从而使得生活、工作语言是中文的人群也能很好地学习、使用Python，享受编程带来的便利与乐趣！
+* 实现游戏自动化可能是我们大多数人草根编程人学习编程的动力所在，但我们要知道，任一领域之所以能挣钱，是因为有资讯壁垒、技术壁垒的存在，而游戏自动化领域的这种壁垒已是日渐消亡，如果尝试未果，我们可以往办公自动化、工业自动化方向继续尝试。
+* 本库永久开源免费，不会有收费版本。其封装目的仅仅是为了将英文内容翻译成中文，从而使得生活、工作语言是中文的人群也能很好地学习、使用Python，享受编程带来的便利与乐趣！
 
-
-## 🌈安装模块🌈
+## 🌈安装模块
 * **安装我们**，请在终端输入以下命令，并按回车执行
 ```
 pip install pyzw
@@ -59,44 +43,49 @@ pip install --upgrade pyzw
 pip uninstall pyzw
 ```
 
-## 🌈使用模块🌈
+## 🌈使用模块
 * **导入模块**  
 推荐🎉推荐🎉推荐🎉使用`from...import *`写法，例如：  
 ```python
 from pyzw.内置命令 import *  # 导入Python标准库的内置命令
 from pyzw.鼠标命令 import *  # 导入Python中文库(PyZW)封装的鼠标操作相关命令
 ```
-> 💡请注意， `import`导入模块的写法不止上述一种，其他写法也一样能使用Python中文库(PyZW)，但经我们反复测试，一致认为上述`from...import *`导入模块的写法是最利于使用Python中文库(PyZW)来写代码的
+> 💡请注意：`import` 导入模块的写法不止上述一种，其他写法也同样能使用Python中文库(PyZW)，但经我们反复测试，一致认为 `from...import *` 导入模块的写法是最利于使用Python中文库(PyZW)来写代码的
 
-* **使用命令**  
-直接输入命令即可，例如：  
+* **使用演示**   
+![PyZW中文库](https://github.com/XueLiren/PyZW/blob/master/img/shiyongyanshi.gif?raw=true "")  
+
+* **封装前后运行速度比较**  
+pass 
+
+## 🌈命令分类
+| &emsp;&emsp;类别&emsp;&emsp; | 数量  | &emsp;&emsp;类别&emsp;&emsp; | 数量  | &emsp;&emsp;类别&emsp;&emsp; | 数量  | &emsp;&emsp;类别&emsp;&emsp; | 数量  |
+|:--------------------------:|:---:|:--------------------------:|-----|:--------------------------:|-----|:--------------------------:|-----|
+|            内置函数            |     |             进程             |     |             鼠标             |     |                            |     |
+|            字符串             |     |             内存             |     |             图片             |     |                            |     |
+|            字节串             |     |             时间             |     |             颜色             |     |                            |     |
+|            剪切板             |     |             校验             |     |            OCR             |     |                            |     |
+|             列表             |     |             系统             |     |          Excel表格           |     |                            |     |
+|             编码             |     |            数据库             |     |           Word文档           |     |                            |     |
+|             运算             |     |           EXE打包            |     |           PPT演示            |     |                            |     |
+|             文件             |     |           HTTP请求           |     |            Tk界面            |     |                            |     |
+|             目录             |     |             窗口             |     |            Dm大漠            |     |                            |     |
+|             线程             |     |             键盘             |     |                            |     |                            |     |
+
+## 🌈文档资料
 pass
 
-## 🌈命令分类🌈
-* **已封装的**  
-`内置函数` `字符串` `字节串` `剪切板` `列表` `编码` `运算` `文件` `目录`  
-`线程` `进程` `内存` `时间` `校验` `系统` `数据库` `EXE打包` `HTTP请求`  
-`窗口` `键盘` `鼠标` `图片` `颜色` `OCR` `Excel表格` `Word文档` `PPT演示`  
-`Dm大漠插件`  
+## 🌈问题反馈
+> 大家可以在"**QQ频道-Python中文库**"反馈BUG、求助问题、分享经验、闲聊杂谈，请使用QQ扫描下方二维码进入
 
-* **封装中的**  
-`Tk界面` 
-
-## 🌈文档资料🌈
-pass
-
-## 🌈问题反馈🌈
-大家可以在"QQ频道-Python中文库"反馈BUG、求助问题、分享经验、闲聊杂谈，请使用QQ扫描下方二维码进入  
 ![PyZW中文库](https://raw.githubusercontent.com/XueLiren/PyZW/master/img/qq_pindao.jpg "请使用QQ扫码进入PyZW中文库社区")  
- 
-## 🌈函数封装前后比较🌈
-* pass 
 
-## 🌈初学者入门建议🌈
+
+## 🌈初学者入门建议
 * pass
 
 
-## 🌈常见问题🌈
+## 🌈常见问题
 ### 学编程，到底要不要学英语？
 常说的“学编程，先学英语”，不是指需要很好的英语水平才能写代码，而是由于人工智能、深度学习、神经网络、目标检测等最新的前沿技术都是国外团队开发出来的，我们不得不先学会他们使用的语言——英语，才能更好地学习他们发表的文档资料，与他们交流问题，掌握这些技术。  
 所以，如果你的目标是掌握各类前沿技术，那必须学好英语；如果你的目标只是实现传统的办公自动化、游戏自动化，那不需要学英语，因为这些传统的编程技术在国内各个平台上已经有了足够多的中文资料供大家学习。
