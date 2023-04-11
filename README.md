@@ -28,7 +28,7 @@ from pyzw.鼠标命令 import *  # 导入Python中文库(PyZW)封装的鼠标操
 * **使用演示**   
 ![PyZW中文库](https://github.com/XueLiren/PyZW/blob/master/img/shiyongyanshi.gif?raw=true "")  
 
-* **封装前后运行速度比较**
+* **封装前后运行速度比较**  
 pass 
 
 ## 🌈命令分类
