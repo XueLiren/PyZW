@@ -4,5 +4,3 @@ from pyzw.内置命令 import *
 # b = 取异步迭代器下一项数据(a, "完毕")
 
 
-a = bool(2)
-打印(a)
