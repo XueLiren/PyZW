@@ -1,6 +1,8 @@
 from pyzw.内置命令 import *
 
-# a = 取异步迭代器([2, 3, 5, 6])
-# b = 取异步迭代器下一项数据(a, "完毕")
+x = compile('print(78)', 'test', 'eval')
+print(x)
+# exec(x)
 
-
+x = compile('print(89)\nprint(88)', 'test', 'exec')
+exec(x)
