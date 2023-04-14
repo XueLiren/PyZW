@@ -1,8 +1,5 @@
 from pyzw.内置命令 import *
 
-x = compile('print(78)', 'test', 'eval')
-print(x)
-# exec(x)
+调试输出(complex('22'))
 
-x = compile('print(89)\nprint(88)', 'test', 'exec')
-exec(x)
+调试输出(转复数('22'))
