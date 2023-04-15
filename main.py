@@ -1,13 +1,8 @@
 from pyzw.内置命令 import *
 
 
-x = 1
-y = 2
+打印(int())
+打印(转整数(3.6))
 
-
-def get_globals():
-    return 全局变量()
-
-
-a = get_globals()
-打印(a)
+打印(int('12', 16))
+打印(转整数('12', 16))
