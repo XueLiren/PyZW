@@ -364,7 +364,12 @@ def 执行表达式(字符串表达式, 全局命名=None, 局部命名=None):
       locals -- 可选参数，变量作用域，局部命名空间。如果被提供，可以是任何映射对象。
     :return: 表达式计算结果
     """
-    return eval(字符串表达式, 全局命名, 局部命名)
+    if 全局命名 is None and 局部命名 is None:
+        return eval(字符串表达式)
+    elif 全局命名 is None:
+        return eval(字符串表达式, 局部命名)
+    elif 局部命名 is None:
+        return eval(字符串表达式, 全局命名)
 
 
 def 执行代码块(代码块, 全局命名=None, 局部命名=None):
@@ -381,7 +386,12 @@ def 执行代码块(代码块, 全局命名=None, 局部命名=None):
       局部命名 -- 可选参数，变量作用域，局部命名空间。如果被提供，可以是任何映射对象。
     :return: None
     """
-    return exec(代码块, 全局命名, 局部命名)
+    if 全局命名 is None and 局部命名 is None:
+        return exec(代码块)
+    elif 全局命名 is None:
+        return exec(代码块, 局部命名)
+    elif 局部命名 is None:
+        return exec(代码块, 全局命名)
 
 
 # **************************************** F ****************************************
@@ -426,7 +436,10 @@ def 格式化(值, 格式=None):
     :param 格式: 可选参数，将值格式化为的格式。
     :return: 字符串
     """
-    return format(值, 格式)
+    if 格式 is None:
+        return format(值)
+    else:
+        return format(值, 格式)
 
 
 def 冻结(可迭代对象=None):
@@ -439,7 +452,10 @@ def 冻结(可迭代对象=None):
     :param 可迭代对象: 必选参数，如列表、集合、元组等。
     :return: 不可更改的可迭代对象
     """
-    return frozenset(可迭代对象)
+    if 可迭代对象 is None:
+        return frozenset()
+    else:
+        return frozenset(可迭代对象)
 
 
 # **************************************** G ****************************************
@@ -464,7 +480,8 @@ def 类属性_取值(类名称, 属性名称, 异常返回=None):
 def 全局变量():
     """
     【函数简介】
-      以字典类型返回当前位置全部的全局变量
+      以字典类型返回当前位置全部的全局变量。
+      注意：由于
     【函数原型】
       Python标准库-内置函数 globals()
     【参数说明】
