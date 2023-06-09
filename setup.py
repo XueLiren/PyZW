@@ -17,7 +17,7 @@ def read(filename):
 
 setup(
     name='pyzw',
-    version='0.0.14',
+    version='0.0.15',
     author='XueLiren',
     author_email='liren1029@gmail.com',
     # maintainer='XueLiren',
