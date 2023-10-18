@@ -18,9 +18,10 @@ pip uninstall pyzw
 
 ## 🌈使用模块
 * **导入模块**  
-推荐🎉推荐🎉推荐🎉使用`from...import *`写法，例如：  
+推荐🎉推荐🎉推荐🎉使用`from...import *`写法，例如：
+
 ```python
-from pyzw.内置命令 import *  # 导入Python标准库的内置命令
+from pyzw.内置函数 import *  # 导入Python标准库的内置命令
 from pyzw.鼠标命令 import *  # 导入Python中文库(PyZW)封装的鼠标操作相关命令
 ```
 > 💡请注意：`import` 导入模块的写法不止上述一种，其他写法也同样能使用Python中文库(PyZW)，但经我们反复测试，一致认为 `from...import *` 导入模块的写法是最利于使用Python中文库(PyZW)来写代码的
