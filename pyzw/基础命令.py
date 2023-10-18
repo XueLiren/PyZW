@@ -23,14 +23,14 @@ def 打印(*输出内容, 分隔符=' ', 后缀='\n', 文件=None, 刷新=False)
     return print(*输出内容, sep=分隔符, end=后缀, file=文件, flush=刷新)
 
 
-def 调试输出(*任意数据, 分隔符=' ', 后缀='\n', 文件=None, 刷新=False):
+def 调试输出(*输出内容, 分隔符=' ', 后缀='\n', 文件=None, 刷新=False):
     """
     详细用法请阅读中文文档(https://pyzw.org.cn)
-    :param 任意数据:
+    :param 输出内容:
     :param 分隔符:
     :param 后缀:
     :param 文件:
     :param 刷新:
     :return:
     """
-    return print(*任意数据, sep=分隔符, end=后缀, file=文件, flush=刷新)
+    return print(*输出内容, sep=分隔符, end=后缀, file=文件, flush=刷新)
